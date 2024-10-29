@@ -41,12 +41,12 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <div className="sm:hidden bg-gray-800">
+        <div className="sm:hidden">
           <a href="#" className="block text-center py-2 hover:bg-gray-900">Home</a>
           <a href="#" className="block text-center py-2 hover:bg-gray-900">About me</a>
           <a href="#" className="block text-center py-2 hover:bg-gray-900">Services</a>
-          <a href="#" className="block text-center py-2 hover:bg-gray-900">My work</a>
-          <a href="#" className="block text-center py-2 hover:bg-gray-900">Testimonials</a>
+          <a href="#" className="block text-center py-2 hover:bg-gray-900">Portfolio</a>
+          <a href="#" className="block text-center py-2 hover:bg-gray-900">Contact</a>
         </div>
       )}
     </nav>

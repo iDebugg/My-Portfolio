@@ -16,31 +16,18 @@ const Services = () => {
             <div className="services-format">
                 <h3>01</h3>
                 <h2>Web Development</h2>
-                <p>I specialize in creating responsive, user-friendly websites .</p>
-                {/* and web applications that are both visually appealing and functionally robust. With a strong foundation in modern web technologies like HTML, CSS, JavaScript, and frameworks such as React, I am passionate about crafting seamless digital experiences. My goal is to turn complex ideas into simple, elegant solutions that help businesses and individuals thrive online */}
-                <div className="services-readmore">
-              <p>Read More</p>
-            </div>
-            </div>
+                <p className='text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl'> I specialize in creating visually engaging, responsive, and user-friendly web applications. Using my expertise in JavaScript, React.js, HTML, and CSS (including Tailwind CSS).</p>
+              </div>
             <div className="services-format">
                 <h3>02</h3>
                 <h2>Graphics Design</h2>
-                <p>I specialize in creating responsive, user-friendly websites .</p>
-                {/* and web applications that are both visually appealing and functionally robust. With a strong foundation in modern web technologies like HTML, CSS, JavaScript, and frameworks such as React, I am passionate about crafting seamless digital experiences. My goal is to turn complex ideas into simple, elegant solutions that help businesses and individuals thrive online */}
-                <div className="services-readmore">
-              <p>Read More</p>
-            </div>
-            </div>
+                <p className='text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl'>I bring creativity and precision to each project, transforming ideas into compelling visual content. My work spans branding, logos, digital illustrations, and layouts, focusing on clean design and strong aesthetics that communicate effectively</p>
+                </div>
             <div className="services-format">
                 <h3>03</h3>
                 <h2>App Design</h2>
-                <p>I specialize in creating responsive, user-friendly websites .</p>
-                {/* and web applications that are both visually appealing and functionally robust. With a strong foundation in modern web technologies like HTML, CSS, JavaScript, and frameworks such as React, I am passionate about crafting seamless digital experiences. My goal is to turn complex ideas into simple, elegant solutions that help businesses and individuals thrive online */}
-                <div className="services-readmore">
-              <p>Read More</p>
-              <svg xmlns="http://www.w3.org/2000/svg" width="23.828" height="14.769"><path d="m13.616 2.828 2.585 2.586H0v4h16.143l-2.527 2.526 2.828 2.829 7.384-7.384L16.444 0l-2.828 2.828z"/></svg>
-            </div>
-            </div>
+                <p className='text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl'>I specialize in crafting intuitive, high-performing interfaces for mobile applications. Leveraging frameworks like React Native, I build seamless and responsive mobile experiences that work smoothly across both iOS and Android.</p>
+                 </div>
             
             
         </div>
