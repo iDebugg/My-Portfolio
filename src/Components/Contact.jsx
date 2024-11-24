@@ -18,10 +18,10 @@ const Contact = () => {
             <div className="contact-detail display: flex items-center gap-3">
             <i class="fa-solid fa-envelope"></i> <p>aderibigbevictor79@gmail.com</p>
             </div>
-            <div className="contact-detail">
+            <div className="contact-detail display: flex items-center gap-3">
             <i class="fa-solid fa-phone"></i> <p>+2348148307984</p>
             </div>
-            <div className="contact-detail">
+            <div className="contact-detail display: flex items-center gap-3">
             <i class="fa-solid fa-location-dot"></i> <p>Lagos, Nigeria</p>
             </div>
           </div>
