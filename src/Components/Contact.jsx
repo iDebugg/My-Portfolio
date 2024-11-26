@@ -54,7 +54,7 @@ const Contact = () => {
           <input type="text" placeholder="Enter your name" name="name" className="bg-slate-700 p-2 rounded-lg border-none	outline-none min-w-80"/>
           <label htmlFor="" className="text-gray-400">Your Email</label>
           <input type="email" placeholder="Enter your email" name="email" className="bg-slate-700 p-2 rounded-lg border-none	outline-none min-w-80" />
-          <label htmlFor="" className="text-gray-400">Write your message here </label>
+          <label htmlFor="" className="text-gray-400">Write your message here</label>
           <textarea name="message" rows="8" placeholder="Enter your message" className="border-none	outline-none rounded-xl p-2 bg-slate-700 min-w-80"></textarea>
           <button type="submit" className="contact-submit border-none text-white rounded-3xl text-xl sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl py-1 px-3">Submit now</button>
 
