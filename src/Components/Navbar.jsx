@@ -5,7 +5,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [menu, setMenu] =useState("about");
+  const [menu, setMenu] =useState("home");
 
   return (
     <nav className="bg-[#2c2a35] text-white px-5 py-3">

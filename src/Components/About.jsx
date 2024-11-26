@@ -1,6 +1,6 @@
 import React from 'react'
 import '../Styles/About.css'
-import ProfileImg from '../assets/Subject 2.png'
+import ProfileImg from '../assets/IMG_3608 3.jpg'
 const About = () => {
   return (
     <div id='about' className='about display: flex flex-col justify-center items-center pr-3 pl-3 sm:pr-4 sm:pl-4 md:pr-6 md:pl-6 lg:pr-8 lg:pl-8'>
