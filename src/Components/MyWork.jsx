@@ -10,7 +10,7 @@ import image6 from '../assets/Screenshot 2024-10-30 at 5.04.24 PM.png'
 
 const MyWork = () => {
   return (
-    <div className='mywork display: flex flex-col justify-center items-center pr-3 pl-3 sm:pr-4 sm:pl-4 md:pr-6 md:pl-6 lg:pr-8 lg:pl-8 mt-20'>
+    <div id='Portfolio' className='mywork display: flex flex-col justify-center items-center pr-3 pl-3 sm:pr-4 sm:pl-4 md:pr-6 md:pl-6 lg:pr-8 lg:pl-8 mt-20'>
         <div className="mywork-title">
             <h1 className='text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl'>My latest work </h1>
         </div>

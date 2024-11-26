@@ -4,12 +4,12 @@ import '../Styles/Services.css'
 
 const Services = () => {
   return (
-    <div className='services display: flex flex-col justify-center items-center pr-3 pl-3 sm:pr-4 sm:pl-4 md:pr-6 md:pl-6 lg:pr-8 lg:pl-8'>
+    <div id='Services' className='services display: flex flex-col justify-center items-center pr-3 pl-3 sm:pr-4 sm:pl-4 md:pr-6 md:pl-6 lg:pr-8 lg:pl-8'>
         <div className="services-title">
             <h1 className='text-4xl sm:text-4xl md:text-4xl lg:text-5xl xl:text-7xl'>My Services</h1>
-          {/* <svg xmlns="http://www.w3.org/2000/svg" width="310" height="126">
-              <path d="M 5 45 C 120 -30, 160 60, 250 20" fill="#d43397"/>
-          </svg> */}
+            {/* <svg xmlns="http://www.w3.org/2000/svg" width="310" height="126">
+                <path d="M 5 45 C 100 -30, 190 60, 20 20" fill="#d43397"/>
+            </svg> */}
 
         </div>
         <div className="services-container text-center about-sections grid grid-cols-1 sm:grid-cols-2 lg:flex gap-4 mt-20">

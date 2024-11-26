@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
-import '../Styles/Navbar.css'
+import '../Styles/Navbar.css';
+import underlineImg from '../assets/red_ribbon-removebg-preview.png'
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [menu, setMenu] =useState("about");
 
   return (
     <nav className="bg-[#2c2a35] text-white px-5 py-3">
@@ -26,27 +29,29 @@ const Navbar = () => {
 
         {/* Desktop Links */}
         <div className="hidden sm:flex space-x-6">
-          <a href="#" className="hover:text-pink-500">Home</a>
-          <a href="#" className="hover:text-pink-500">About me</a>
-          <a href="#" className="hover:text-pink-500">Services</a>
-          <a href="#" className="hover:text-pink-500">Portfolio</a>
-          <a href="#" className="hover:text-pink-500">Contact</a>
+          <a href="#" className="hover:text-pink-500"><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underlineImg} alt='' className='hugg' />:<></>}</a>
+          <a href="#" className="hover:text-pink-500"><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About me</p></AnchorLink>{menu==="about"?<img src={underlineImg} alt='' className='hugg' />:<></>}</a>
+          <a href="#" className="hover:text-pink-500"><AnchorLink className='anchor-link' offset={50} href='#Services'><p onClick={()=>setMenu("Services")}>Services</p></AnchorLink>{menu==="Services"?<img src={underlineImg} alt='' className='hugg' />:<></>}</a>
+          <a href="#" className="hover:text-pink-500"><AnchorLink className='anchor-link' offset={50} href='#Portfolio'><p onClick={()=>setMenu("Portfolio")}>Portfolio</p></AnchorLink>{menu==="Portfolio"?<img src={underlineImg} alt='' className='hugg' />:<></>}</a>
+          <a href="#" className="hover:text-pink-500"><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("Contact")}>Contact</p></AnchorLink>{menu==="contact"?<img src={underlineImg} alt='' className='hugg' />:<></>}</a>
+
         </div>
 
         {/* Connect Button */}
-        <a href="#" className="hidden sm:inline-block bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full shadow-lg connectwithMe">
-          Connect with me
+        <a href="#" className="hidden sm:inline-block bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full shadow-lg connectwithMe"><AnchorLink className='anchor-link' offset={50} href='#contact'>
+          Connect with me </AnchorLink> 
         </a>
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <div className="sm:hidden">
-          <a href="#" className="block text-center py-2 hover:bg-gray-900">Home</a>
-          <a href="#" className="block text-center py-2 hover:bg-gray-900">About me</a>
-          <a href="#" className="block text-center py-2 hover:bg-gray-900">Services</a>
-          <a href="#" className="block text-center py-2 hover:bg-gray-900">Portfolio</a>
-          <a href="#" className="block text-center py-2 hover:bg-gray-900">Contact</a>
+          <a href="#" className="block text-left pb-3 pt-3 hover:bg-gray-400"><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"}</a>
+          <a href="#" className="block text-left pb-3 hover:bg-gray-900"><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About me</p></AnchorLink>{menu==="about"}</a>
+          <a href="#" className="block text-left pb-3 hover:bg-gray-900"><AnchorLink className='anchor-link' offset={50} href='#Services'><p onClick={()=>setMenu("Services")}>Services</p></AnchorLink>{menu==="Services"}</a>
+          <a href="#" className="block text-left pb-3 hover:bg-gray-900"><AnchorLink className='anchor-link' offset={50} href='#Portfolio'><p onClick={()=>setMenu("Portfolio")}>Portfolio</p></AnchorLink>{menu==="Portfolio"}</a>
+          <a href="#" className="block text-left pb-3 hover:bg-gray-900"><AnchorLink className='anchor-link' offset={50} href='#contact'><p onClick={()=>setMenu("Contact")}>Contact</p></AnchorLink>{menu==="contact"}</a>
+
         </div>
       )}
     </nav>
