@@ -12,7 +12,7 @@ const Hero = () => {
         <span>I'm Aderibigbe Victor,</span> frontend developer based in Nigeria
       </h1>
       <p className="text-center text-2xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-3xl text-base max-w-xl sm:max-w-xl md:max-w-2xl lg:max-w-4xl xl:max-w-5xl text-base leading-normal sm:leading-relaxed md:leading-loose lg:leading-snug xl:leading-normal">
-        I am a frontend developer from Lagos, Nigeria with over 4 years of
+        I am a frontend developer from Lagos, Nigeria with over 3 years of
         experience in multiple personal freelance and companies projects
       </p>
       <div className="hero-action display: flex grid grid-cols-2 gap-5 sm:gap-20 md:gap-20 lg:gap-20 xl:gap-35 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl">
