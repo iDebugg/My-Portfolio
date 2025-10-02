@@ -10,10 +10,8 @@ const Navbar = () => {
   return (
     <nav className="bg-[#2c2a35] text-white px-5 py-3">
       <div className="container mx-auto flex justify-between items-center">
-        {/* Logo */}
-        <a href="#" className="text-xl font-bold text-pink-600">iDebugg</a>
+        <a href="#" className="text-xl font-bold text-pink-600">Vixell</a>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={() => setIsOpen(!isOpen)}
           className="sm:hidden text-pink-500 hover:text-pink-600"
@@ -27,7 +25,6 @@ const Navbar = () => {
           </svg>
         </button>
 
-        {/* Desktop Links */}
         <div className="hidden sm:flex space-x-6">
           <a href="#" className="hover:text-pink-500"><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"?<img src={underlineImg} alt='' className='hugg' />:<></>}</a>
           <a href="#" className="hover:text-pink-500"><AnchorLink className='anchor-link' offset={50} href='#about'><p onClick={()=>setMenu("about")}>About me</p></AnchorLink>{menu==="about"?<img src={underlineImg} alt='' className='hugg' />:<></>}</a>
@@ -37,13 +34,12 @@ const Navbar = () => {
 
         </div>
 
-        {/* Connect Button */}
         <a href="#" className="hidden sm:inline-block bg-pink-500 hover:bg-pink-600 text-white px-4 py-2 rounded-full shadow-lg connectwithMe"><AnchorLink className='anchor-link' offset={50} href='#contact'>
           Connect with me </AnchorLink> 
         </a>
       </div>
 
-      {/* Mobile Menu */}
+
       {isOpen && (
         <div className="sm:hidden">
           <a href="#" className="block text-left pb-3 pt-3 hover:bg-gray-400"><AnchorLink className='anchor-link' href='#home'><p onClick={()=>setMenu("home")}>Home</p></AnchorLink>{menu==="home"}</a>

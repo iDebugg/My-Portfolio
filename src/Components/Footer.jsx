@@ -16,13 +16,9 @@ const Footer = () => {
             </div>
         </div> */}
         <hr /> 
-        <div className="footer-bottom display: flex justify-between mb-5">
-            <p className='footer-bottom-left'>© 2024 Aderibigbe Victor. All rights reserved. </p>
-            <div className="footer-bottom-right display: flex gap-3">
-                {/* <p>Terms of services</p>
-                <p>Privacy policy</p> */}
-                {/* <p>Connect with me</p> */}
-            </div>
+        <div className="footer-bottom text-center mb-5">
+            <p className='footer-bottom-left'>© {new Date().getFullYear()} Aderibigbe Victor. All rights reserved. </p>
+            
         </div>
     </div>
   )
