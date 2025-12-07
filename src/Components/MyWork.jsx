@@ -6,6 +6,9 @@ import image3 from "../assets/tizmine.png";
 import image4 from "../assets/Home Page1.svg";
 import image5 from "../assets/kfnetwork.png";
 import image6 from "../assets/toroforge.png";
+import image7 from "../assets/Quinthex.png";
+import image8 from "../assets/LuNetwork.png";
+import image9 from "../assets/ToroAccess.png";
 
 const MyWork = () => {
   return (
@@ -56,6 +59,27 @@ const MyWork = () => {
         
        
       </div>
+      <div className="services-container text-center about-sections grid grid-cols-1 sm:grid-cols-2 lg:flex gap-4 mt-5">
+      <a target="blank" href="https://www.quanthex.io/">
+          <div data-aos="flip-down" className="mywork-format">
+            <img src={image7} alt="" className=""/>
+          </div>
+        </a>
+        <a target="blank" href="https://www.lunetwork.io/">
+          <div data-aos="flip-up" className="mywork-format">
+            <img src={image8} alt="" className=""/>
+          </div>
+        </a>
+        <a target="blank" href="https://www.toroaccess.com/">
+          <div data-aos="flip-down" className="mywork-format">
+            <img src={image9} alt="" />
+          </div>
+        </a>
+
+        
+       
+      </div>
+
     </div>
   );
 };
