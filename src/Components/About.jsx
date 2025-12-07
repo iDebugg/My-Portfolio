@@ -49,7 +49,7 @@ const About = () => {
             </div>
             <hr />
             <div className="about-achievement text-center">
-                <h1 data-aos="flip-left" className='text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl'>5+</h1>
+                <h1 data-aos="flip-left" className='text-3xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-5xl'>10+</h1>
                 <p data-aos="flip-right" data-aos-delay="100" className='text-md sm:text-md md:text-xl lg:text-2xl xl:text-2xl'>HAAPPY CLIENTS</p>
             </div>
         </div>
